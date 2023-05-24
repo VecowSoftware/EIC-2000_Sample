@@ -1,0 +1,6 @@
+gpio99
+
+Ex: get user button status:
+$ sudo echo 99 > /sys/class/gpio/export
+$ sudo echo in > /sys/class/gpio/gpio99/direction
+$ sudo cat /sys/class/gpio/gpio99/value

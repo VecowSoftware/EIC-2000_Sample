@@ -1,0 +1,15 @@
+
+
+CN_GPIO1: GPIO137
+CN_GPIO2: GPIO126
+CN_GPIO3: GPIO14
+CN_GPIO4: GPIO122
+CN_GPIO5: GPIO135
+CN_GPIO6: GPIO7
+
+
+Ex: pull CN_GPIO1 to High status:
+# echo 137 > /sys/class/gpio/export
+# echo out > /sys/class/gpio/gpio137/direction
+# echo 1 > /sys/class/gpio/gpio137/value
+

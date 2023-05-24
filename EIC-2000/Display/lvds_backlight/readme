@@ -1,0 +1,10 @@
+lvds brightness:
+$ sudo su
+# echo 1 > /sys/class/backlight/lvds_backlight/brightness
+# echo 2 > /sys/class/backlight/lvds_backlight/brightness
+# echo 3 > /sys/class/backlight/lvds_backlight/brightness
+# echo 4 > /sys/class/backlight/lvds_backlight/brightness
+# echo 5 > /sys/class/backlight/lvds_backlight/brightness
+# echo 6 > /sys/class/backlight/lvds_backlight/brightness
+# echo 7 > /sys/class/backlight/lvds_backlight/brightness
+

@@ -1,0 +1,18 @@
+Enable audio control:
+$ sudo ./enable_audio.sh
+$ pulseaudio -D
+
+mute:
+sudo ./volmute.sh
+
+vol_up:
+sudo ./volup.sh
+
+vol_down:
+sudo ./voldown.sh
+
+Record:
+sudo arecord -D plughw:2  1.wav
+
+Play:
+sudo aplay -D plughw:2,0   1.wav

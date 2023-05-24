@@ -1,0 +1,28 @@
+Set COM2 to RS232:
+
+sudo ./EIC-2000_setcom 2 232
+
+Set COM1 to RS232:
+  
+sudo ./EIC-2000_setcom 1 232
+
+Set COM2 to RS422:
+
+sudo ./EIC-2000_setcom 2 422
+
+Set COM2 to 485
+
+sudo ./EIC-2000_setcom 2 485
+
+COM1 RS232/RS422/RS485  loopback:
+
+sudo ./serial_rw 1
+
+COM2 RS232/RS422/RS485  loopback:
+
+sudo ./serial_rw 2
+
+
+COM2 RS232 flow control loopback:
+
+sudo ./serial_rw_ctsrts 2
